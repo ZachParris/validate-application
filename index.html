@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bank Of Parris</title>
+<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+	<header>
+		<h1>Bank Of Parris</h1>
+	</header>
+	<fieldset>
+		<legend>
+			Personal Info:
+		</legend>
+			<form action="file:///Users/TechMarkTool/workspace/exercises/the-static-web/banking-form/index.html" method="get">
+				<label>First name:  </label>
+					<input type="text" name="first_name" size="15" maxlength="30" required/>
+				<label><br>
+					Middle initial:  
+					<input type="text" name="last_name" size="5" maxlength="30" />
+				</label><br>
+				<label>Last name:  <input type="text" name="last_name" size="15" maxlength="30" />
+				</label><br><br>
+				<label>Address:  <input type="text" name="last_name" size="20" maxlength="30" />
+				</label><br>
+				<label>Occupation:  
+					<input type="text" name="last_name" size="20" maxlength="30" />
+				</label><br>
+				<label>
+					Employer:  
+					<input type="text" name="last_name" size="20" maxlength="30" />
+				</label><br>
+				<label>
+					Employer address:  
+					<input type="text" name="last_name" size="25" maxlength="30" />
+				</label>
+				</form>
+			</fieldset><br><br>
+					<fieldset>
+			<legend>
+				Your Loan:
+			</legend>
+				<form>
+					<h3>Length Of Loan:</h3>
+					<input type="radio" name="subject" value="5year"> 5 Years
+					<input type="radio" name="subject" value="15year"> 15 Years
+					<input type="radio" name="subject" value="30year"> 30 Years
+				</form><br><br>
+
+					<select name="dropdown" float="right">
+                      <option value="conditions" selected>Special Conditions</option>
+					  <option value="down_payment">I Have A Down Payment</option>
+					  <option value="resident">Out-of-state Resident</option>
+					  <option value="Married">Married</option>
+					  <option value="co-sign">Loan will be co-signed</option>
+					</select>
+					<br><br>
+
+
+				<form>
+					<h3>Type Of Loan:</h3>
+					<input type="checkbox" name="maths" value="on"> Commercial
+					<input type="checkbox" name="physics" value="on"> Real Estate
+					<input type="checkbox" name="physics" value="on"> Personal
+					<input type="checkbox" name="physics" value="on"> Mortgage
+					</form><br><br>
+							<form>
+								Additional Comments: <br />
+							<textarea rows="5" cols="50" name="description">
+							</textarea><br><br>
+					<label>
+					Email:  
+					<input id="validInput" type="url" name="Email" required="required" size="15" maxlength="30"/>
+				</label><br><br>
+				<label>
+					 Phone:  
+					<input id="validInput" type="number" name="phone" required="required"
+					size="15" maxlength="30"/>
+				</label><br><br>
+				<label>
+					LinkedIn:  
+					<input id="validInput" type="url" name="linkedin" required="required" size="15" maxlength="30"/>
+				</label>
+				<input type="button" value="Submit">
+</form>
+</fieldset>
+</body>
+</html>
