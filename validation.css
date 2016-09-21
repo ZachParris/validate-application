@@ -1,21 +1,25 @@
-/*There are CSS selectors that you can use to check for the validity of the new HTML5 input types of email, tel, phone, etc. Your task is to enhance your Google Fu and find out what they are.
-
-Paste the banking form HTML into your document.
-When a valid web URL or email address is entered into the corresponding field, the color of the field should be green.
-If the value is invalid, the color should be red.*/
 body {
-	background-color: lightgrey;
+	background-color: #c8c8c8;
 }
 header {
 	position: center;
-	background-color: #c8c8c8;
+	background-color: #49a5bf;
 	text-align: center;
 	font-style: italic;
 }
-fieldset {
+#userInfo {
+	display: inline;
+	font-style: italic;
+	font-weight: bold; 
+}
+form {
 	text-align: center;
 	font-style: italic;
 	font-weight: bold;
+}
+
+#select {
+	text-align: center;
 }
 
 .validInput:valid:target {
@@ -24,4 +28,12 @@ fieldset {
 
 inputInput:invalid:target {
 	background-color: red;
+}
+
+.contact input:valid {
+  background-color: green;
+}
+
+.contact input:invalid {
+  background-color: red;
 }
